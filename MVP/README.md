@@ -8,10 +8,10 @@ The data explored in addition to the EDA workflow process.
 ## The MVP notebook summarizes the following: 
 - Explore the features 
 - Drop any unnecessary features
-- Clean the text of the tweets
-- Create one-hot-encoding for the vaccine type
+- Clean dataset
+- Create one-hot-encoding for some features 
 - Label the data using ```Stroke```
-- Train and test a ```Logistic Regression``` model to predict the data and got train accuracy score of ```94.67%``` and ```92.99%``` for testing
+- Train and test ```Logistic Regression``` model to predict the data and got train accuracy score of ```94.67%``` and ```92.99%``` for testing
 
 
 The following figure illustrates the ratio of stroke and non-stroke:
