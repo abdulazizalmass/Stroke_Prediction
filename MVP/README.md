@@ -3,7 +3,7 @@
 In this folder, the Minimum Viable Product (MVP) is provided. 
 
 The initial steps in details are provided in the Jupyter notebook. 
-The data explored in addition to the EDA workdlow process. 
+The data explored in addition to the EDA workflow process. 
 
 ## The MVP notebook summarizes the following: 
 - Explore the features 
