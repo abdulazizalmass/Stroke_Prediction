@@ -16,7 +16,7 @@ The data explored in addition to the EDA workdlow process.
 
 The following figure illustrates the ratio of stroke and non-stroke:
 
-![pos_neg_sent]()
+![pos_neg_sent](https://github.com/abdulazizalmass/Stroke_Prediction/raw/main/MVP/stroke%20label.png)
 
 
 ## There are a few more steps to finish the project: 
