@@ -15,7 +15,30 @@ The data explored in addition to the EDA workdlow process.
 
 
 The following figure illustrates the ratio of stroke and non-stroke:
+
 <img center="left" src="https://github.com/abdulazizalmass/Stroke_Prediction/raw/main/MVP/stroke%20label.png" width=50% height=50%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 The following figure shows one important predictor feature:
