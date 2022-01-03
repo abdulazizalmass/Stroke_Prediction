@@ -20,7 +20,9 @@ The following figure illustrates the ratio of stroke and non-stroke:
 
 
 The following figure shows one important predictor feature:
-![pos_neg_sent](https://github.com/abdulazizalmass/Stroke_Prediction/raw/main/MVP/age%20predictor%20.png)
+
+<img align="left" src="https://github.com/abdulazizalmass/Stroke_Prediction/raw/main/MVP/age%20predictor%20.png" width=50% height=50%>
+
 
 ## There are a few more steps to finish the project: 
 - Balance the dataset 
