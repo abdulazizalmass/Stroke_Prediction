@@ -26,6 +26,6 @@ The following figure shows one important predictor feature:
 
 
 ## There are a few more steps to finish the project: 
-- Balance the dataset 
+- Imbalance dataset handling will be investigated  
 - Use different models to predict stroke. 
 
