@@ -11,11 +11,10 @@ The data explored in addition to the EDA workdlow process.
 - Clean the text of the tweets
 - Create one-hot-encoding for the vaccine type
 - Label the data using ```Stroke```  ```feature```
-- Apply the ```TfidfVectorizer```
 - Train and test a ```Logistic Regression``` model to classify the data and got ```00.00%```
 
 
-The following figure illustrates the ratio of positive to negative tweets:
+The following figure illustrates the ratio of stroke and non-stroke:
 
 ![pos_neg_sent]()
 
