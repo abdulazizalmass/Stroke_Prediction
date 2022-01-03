@@ -10,14 +10,17 @@ The data explored in addition to the EDA workdlow process.
 - Drop any unnecessary features
 - Clean the text of the tweets
 - Create one-hot-encoding for the vaccine type
-- Label the data using ```Stroke```  ```feature```
-- Train and test a ```Logistic Regression``` model to classify the data and got ```00.00%```
+- Label the data using ```Stroke```
+- Train and test a ```Logistic Regression``` model to predict the data and got ```94.00%```
 
 
 The following figure illustrates the ratio of stroke and non-stroke:
 
 ![pos_neg_sent](https://github.com/abdulazizalmass/Stroke_Prediction/raw/main/MVP/stroke%20label.png)
 
+
+The following figure shows one important feature after analysis:
+![pos_neg_sent](https://github.com/abdulazizalmass/Stroke_Prediction/raw/main/MVP/age%20predictor%20.png)
 
 ## There are a few more steps to finish the project: 
 - Balance the dataset 
