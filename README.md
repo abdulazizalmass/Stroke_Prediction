@@ -6,13 +6,13 @@
 # Stroke Prediction
 Jefn Alshammari & Abdulaziz Almass
 ## Abstract
-This project aimed to predict stroke for people by analyzing a dataset found in [Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) using different machine learning models(MLs) to help the medical staff to recongize those people with high risk of getting stroke in the future. The used dataset was trained and get X% accuracy as the highest value of the different used models.  
+This project aimed to predict stroke for people by analyzing a dataset found in [Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) using different machine learning models(MLs) to help the medical staff to recognize those people with stroke. The used dataset was trained and get 96% accuracy as the highest value of the different used models.  
 
 <!-- The data has been explored, cleaned and One-Hot-Encoding for some of the features such as "gender" ...etc.  -->
 
 ## Design
 
-This project is one of the T5 Data Science BootCamp requirements. Data provided by Kaggle has been used in this project. The attribute "Stroke" is the label or target to be predicted in this project. This target is binary having either 1 or 0 as a value. The value of "1" means predicted with stroke and "0" means predicted without a stroke. This classifcation prediction will be deployed using various machine learning models and a comparison of these models is done to measure of performance for each model to find the one that fits with the selected dataset. All of the following models have been used and tested: Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree,  Support-Vector Machines (SVM),Random Forest and XGBoost.  
+This project is one of the T5 Data Science BootCamp requirements. Data provided by Kaggle has been used in this project. The attribute "Stroke" is the label or target to be predicted in this project. This target is binary having either 1 or 0 as a value. The value of "1" means predicted with stroke and "0" means predicted without a stroke. This classifcation prediction is deployed using various machine learning models and a comparison of these models is done to measure of performance for each model to find the one that fits with the selected dataset. All of the following models have been used and tested: Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree,  Support-Vector Machines (SVM),Random Forest and XGBoost.  
 
 ## Data 
 
@@ -27,6 +27,7 @@ Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Support-Vector Ma
 
 The following metrics summarize the results of all ML models used in this project : 
 
+
 |           Model Name           |  Accuracy  |    F1    |   Precision   |    Recall   |
 | ------------------------------ | ---------- | -------- | ------------- | ----------- |
 | Logistic without Scaling       |            |          |               |             |
@@ -39,6 +40,41 @@ The following metrics summarize the results of all ML models used in this projec
 | Random Forest with Scaling     |            |          |               |             |
 | XGBoost with Scaling           |            |          |               |             |
 | XGBoost without Scaling        |            |          |               |             |
+
+
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
+|                     |                | Macro Avg | Accuracy | Precision | Recall | F1 Score | Stroke |
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
+| Logistic Regression |   Imbalanced   |    0.50   |   0.92   |    0.93   |  1.00  |   0.96   |    0   |
+|                     |                |           |          |    0.00   |  0.00  |   0.00   |    1   |
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
+| Logistic Regression |   Not Scaled   |    0.91   |   0.90   |    0.89   |  0.93  |   0.91   |    0   |
+|                     |                |           |          |    0.92   |  0.89  |   0.90   |    1   |
+|                     +----------------+-----------+----------+-----------+--------+----------+--------+
+|                     |     Scaled     |    0.92   |   0.91   |    0.88   |  0.97  |   0.92   |    0   |
+|                     |                |           |          |    0.97   |  0.87  |   0.92   |    1   |
+|                     +----------------+-----------+----------+-----------+--------+----------+--------+
+|                     | Tuned & Scaled |    0.92   |   0.91   |    0.89   |  0.94  |   0.92   |    0   |
+|                     |                |           |          |    0.94   |  0.89  |   0.91   |    1   |
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
+|         KNN         |     Scaled     |    0.94   |   0.94   |    0.96   |  0.93  |   0.94   |    0   |
+|                     |                |           |          |    0.93   |  0.96  |   0.94   |    1   |
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
+|    Decision Tree    |     Scaled     |    0.92   |   0.92   |    0.94   |  0.90  |   0.92   |    0   |
+|                     |                |           |          |    0.91   |  0.95  |   0.93   |    1   |
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
+|         SVM         |   Not Scaled   |    0.92   |   0.92   |    0.89   |  0.97  |   0.92   |    0   |
+|                     |                |           |          |    0.96   |  0.88  |   0.92   |    1   |
+|                     +----------------+-----------+----------+-----------+--------+----------+--------+
+|                     |     Scaled     |    0.92   |   0.92   |    0.88   |  0.97  |   0.92   |    0   |
+|                     |                |           |          |    0.97   |  0.87  |   0.92   |    1   |
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
+|    Random Forest    |     Scaled     |    0.97   |   0.96   |    0.96   |  0.97  |   0.97   |    0   |
+|                     |                |           |          |    0.97   |  0.96  |   0.97   |    1   |
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
+|       XGBoost       |     Scaled     |    0.93   |   0.93   |    0.91   |  0.95  |   0.93   |    0   |
+|                     |                |           |          |    0.95   |  0.91  |   0.93   |    1   |
++---------------------+----------------+-----------+----------+-----------+--------+----------+--------+
 
 ## Tools
 
