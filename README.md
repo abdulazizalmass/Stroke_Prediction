@@ -44,7 +44,7 @@ The following metrics summarize the results of all ML models used in this projec
 
 |                     |                | Macro Avg | Accuracy | Precision |   Recall  |  F1 Score | Stroke |
 |---------------------|----------------|:---------:|:--------:|:---------:|:---------:|:---------:|:------:|
-| Logistic Regression |   Imbalanced   |    0.50   |   0.92   | 0.93 0.00 | 1.00 0.00 | 0.96 0.00 |   0 1  |
+| Logistic Regression |   Imbalanced   |    0.50   |   0.92   | 0.93 0.00 | 1.00 0.00 | 0.96 0.00 |   0<br> 1  |
 | Logistic Regression |   Not Scaled   |    0.91   |   0.90   | 0.89 0.92 | 0.93 0.89 | 0.91 0.90 |   0 1  |
 |                     |     Scaled     |    0.92   |   0.91   | 0.88 0.97 | 0.97 0.87 | 0.92 0.92 |   0 1  |
 |                     | Tuned & Scaled |    0.92   |   0.91   | 0.89 0.94 | 0.94 0.89 | 0.92 0.91 |   0 1  |
