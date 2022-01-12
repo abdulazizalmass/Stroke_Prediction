@@ -49,6 +49,9 @@ The following metrics summarize the results of all ML models used in this projec
 - Matplotlib and Seaborn for plots
 - SKlearn for modeling
 - One-Hot-Encoding for categorical labeling
+- Imblearn
+- Plotly
+- XGBoost
 
 ## Communication
 
