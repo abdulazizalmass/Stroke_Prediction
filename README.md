@@ -51,6 +51,7 @@ The following metrics summarize the results of all ML models used in this projec
 - One-Hot-Encoding for categorical labeling
 - Imblearn
 - Plotly
+- Seaborn
 - XGBoost
 
 ## Communication
