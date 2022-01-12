@@ -30,9 +30,9 @@ The following metrics summarize the results of all ML models used in this projec
 
 |                     |                | Macro Avg | Accuracy | Precision |   Recall  |  F1 Score | Stroke |
 |---------------------|----------------|:---------:|:--------:|:---------:|:---------:|:---------:|:------:|
-| :Logistic Regression: ||   Imbalanced   |    0.50   |   0.92   | 0.93<br> 0.00 | 1.00<br> 0.00 | 0.96<br> 0.00 |   0<br> 1  |
-| ^^ |   Not Scaled   ||    0.91   |   0.90   | 0.89<br> 0.92 | 0.93<br> 0.89 | 0.91<br> 0.90 |   0<br> 1  |
-| Logistic Regression |   Scaled     |    0.92   |   0.91   | 0.88<br> 0.97 | 0.97<br> 0.87 | 0.92<br> 0.92 |   0<br> 1  |
+| Logistic Regression |   Imbalanced   |    0.50   |   0.92   | 0.93<br> 0.00 | 1.00<br> 0.00 | 0.96<br> 0.00 |   0<br> 1  |
+| Logistic Regression |   Not Scaled   |    0.91   |   0.90   | 0.89<br> 0.92 | 0.93<br> 0.89 | 0.91<br> 0.90 |   0<br> 1  |
+| Logistic Regression |     Scaled     |    0.92   |   0.91   | 0.88<br> 0.97 | 0.97<br> 0.87 | 0.92<br> 0.92 |   0<br> 1  |
 | Logistic Regression | Tuned & Scaled |    0.92   |   0.91   | 0.89<br> 0.94 | 0.94<br> 0.89 | 0.92<br> 0.91 |   0<br> 1  |
 |         KNN         |     Scaled     |    0.94   |   0.94   | 0.96<br> 0.93 | 0.93<br> 0.96 | 0.94<br> 0.94 |   0<br> 1  |
 |    Decision Tree    |     Scaled     |    0.92   |   0.92   | 0.94<br> 0.91 | 0.90<br> 0.95 | 0.92<br> 0.93 |   0<br> 1  |
