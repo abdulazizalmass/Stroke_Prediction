@@ -28,32 +28,18 @@ Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Support-Vector Ma
 The following metrics summarize the results of all ML models used in this project : 
 
 
-|           Model Name           |  Accuracy  |    F1    |   Precision   |    Recall   |
-| ------------------------------ | ---------- | -------- | ------------- | ----------- |
-| Logistic without Scaling       |            |          |               |             |
-| Logistic with Scaling          |            |          |               |             |
-| Logistic with Scaling & Tuning |            |          |               |             |
-| KNN with Scaling               |            |          |               |             |
-| Decision Tree with Scaling     |            |          |               |             |
-| SVM without Scaling            |            |          |               |             |
-| SVM with Scaling               |            |          |               |             |
-| Random Forest with Scaling     |            |          |               |             |
-| XGBoost with Scaling           |            |          |               |             |
-| XGBoost without Scaling        |            |          |               |             |
-
-
 |                     |                | Macro Avg | Accuracy | Precision |   Recall  |  F1 Score | Stroke |
 |---------------------|----------------|:---------:|:--------:|:---------:|:---------:|:---------:|:------:|
-| Logistic Regression |   Imbalanced   |    0.50   |   0.92   | 0.93 0.00 | 1.00 0.00 | 0.96<br> 0.00 |   0<br> 1  |
-| Logistic Regression |   Not Scaled   |    0.91   |   0.90   | 0.89 0.92 | 0.93 0.89 | 0.91<br> 0.90 |   0<br> 1  |
-|                     |     Scaled     |    0.92   |   0.91   | 0.88 0.97 | 0.97 0.87 | 0.92<br> 0.92 |   0<br> 1  |
-|                     | Tuned & Scaled |    0.92   |   0.91   | 0.89 0.94 | 0.94 0.89 | 0.92<br> 0.91 |   0<br> 1  |
-|         KNN         |     Scaled     |    0.94   |   0.94   | 0.96 0.93 | 0.93 0.96 | 0.94<br> 0.94 |   0<br> 1  |
-|    Decision Tree    |     Scaled     |    0.92   |   0.92   | 0.94 0.91 | 0.90 0.95 | 0.92<br> 0.93 |   0<br> 1  |
-|         SVM         |   Not Scaled   |    0.92   |   0.92   | 0.89 0.96 | 0.97 0.88 | 0.92<br> 0.92 |   0<br> 1  |
-|                     |     Scaled     |    0.92   |   0.92   | 0.88 0.97 | 0.97 0.87 | 0.92<br> 0.92 |   0<br> 1  |
-|    Random Forest    |     Scaled     |    0.97   |   0.96   | 0.96 0.97 | 0.97 0.96 | 0.97<br> 0.97 |   0<br> 1  |
-|       XGBoost       |     Scaled     |    0.93   |   0.93   | 0.91 0.95 | 0.95 0.91 | 0.93<br> 0.93 |   0<br> 1  |
+| Logistic Regression |   Imbalanced   |    0.50   |   0.92   | 0.93<br> 0.00 | 1.00<br> 0.00 | 0.96<br> 0.00 |   0<br> 1  |
+| Logistic Regression |   Not Scaled   |    0.91   |   0.90   | 0.89<br> 0.92 | 0.93<br> 0.89 | 0.91<br> 0.90 |   0<br> 1  |
+|                     |     Scaled     |    0.92   |   0.91   | 0.88<br> 0.97 | 0.97<br> 0.87 | 0.92<br> 0.92 |   0<br> 1  |
+|                     | Tuned & Scaled |    0.92   |   0.91   | 0.89<br> 0.94 | 0.94<br> 0.89 | 0.92<br> 0.91 |   0<br> 1  |
+|         KNN         |     Scaled     |    0.94   |   0.94   | 0.96<br> 0.93 | 0.93<br> 0.96 | 0.94<br> 0.94 |   0<br> 1  |
+|    Decision Tree    |     Scaled     |    0.92   |   0.92   | 0.94<br> 0.91 | 0.90<br> 0.95 | 0.92<br> 0.93 |   0<br> 1  |
+|         SVM         |   Not Scaled   |    0.92   |   0.92   | 0.89<br> 0.96 | 0.97<br> 0.88 | 0.92<br> 0.92 |   0<br> 1  |
+|                     |     Scaled     |    0.92   |   0.92   | 0.88<br> 0.97 | 0.97<br> 0.87 | 0.92<br> 0.92 |   0<br> 1  |
+|    Random Forest    |     Scaled     |    0.97   |   0.96   | 0.96<br> 0.97 | 0.97<br> 0.96 | 0.97<br> 0.97 |   0<br> 1  |
+|       XGBoost       |     Scaled     |    0.93   |   0.93   | 0.91<br> 0.95 | 0.95<br> 0.91 | 0.93<br> 0.93 |   0<br> 1  |
 
 
 ## Tools
