@@ -15,7 +15,7 @@ st.markdown(
 	<style>
 	.main{
 	background-color:F5F5F5;
-	}
+	}	
 	</style>
 	""",
 	unsafe_allow_html=True
@@ -38,14 +38,14 @@ with dataset:
 	st.header('Stroke Prediction Dataset')
 	st.text('The dataset is available in .csv format. It consists of 5110 observations/data\npoints with 12 attributes or features. From exploratory data analysis, the age\nfeature has an important role in stroke prediction which most models deployed\nconfirmed afterwards. Other features were not definately if\nthey are important due to the imbalanced dataset that has been treated\nwith Synthetic Minority Oversampling Technique (SMOTE).\nAnother important feature of this project is the label of the stroke whether\nthe person is predicted with a stroke or not.')
 	st.subheader('imbalanced dataset')
-	df = get_data('data/healthcare-dataset-stroke-data.csv')
+	df = get_data('https://raw.githubusercontent.com/abdulazizalmass/Stroke_Prediction/main/Deployment/data/healthcare-dataset-stroke-data.csv')
 	imb_stroke_vis = pd.DataFrame(df['stroke'].value_counts()).head(30)
 	st.bar_chart(imb_stroke_vis)
 	#st.write(df.head(5))	
 	imb_stroke_vis
 
 	st.subheader('Oversampled (SMOTE) balanced dataset')
-	df2 = pd.read_csv('data/Stroke_Dataset_with_Smote.csv')
+	df2 = get_data('https://raw.githubusercontent.com/abdulazizalmass/Stroke_Prediction/main/Deployment/data/Stroke_Dataset_with_Smote.csv')
 	b_stroke_vis = pd.DataFrame(df2['stroke'].value_counts()).head(30)
 	st.bar_chart(b_stroke_vis)
 	#st.write(df2.head(5))	
