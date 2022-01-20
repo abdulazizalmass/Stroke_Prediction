@@ -1,6 +1,8 @@
 # Stroke_Prediction
 [![Follow @StrokePred on Twitter](https://img.shields.io/twitter/follow/strokepred?style=social)](https://twitter.com/StrokePred)
 
+[you can reach the application demo here.](https://share.streamlit.io/abdulazizalmass/stroke_prediction/main/Deployment/main.py)
+
 <img src="https://topnews.in/healthcare/sites/default/files/styles/large/public/Stroke7.jpg?itok=xInaWFYK" width="200" height="200">
 
 # Stroke Prediction
