@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
@@ -51,9 +52,23 @@ with dataset:
 	#st.write(df2.head(5))	
 	b_stroke_vis
 
+	#(group by)
+	all_columns = df2.groupby('stroke')[['Male','age','hypertension','heart_disease','ever_married','Govt_job','Never_worked','Private','Self-employed','children','Urban','avg_glucose_level','formerly smoked','never smoked','smokes']]
+
+
+	fig= px.histogram(df2, x='age', color='stroke', barmode='group', title='age is considered as an importanat predicting feature')
+	st.write(fig)
+
+	fig1= px.histogram(df2, x='avg_glucose_level', color='stroke', barmode='group', title='high avg of glucose reuslts in storke')
+	st.write(fig1)
+
+	figp = px.pie(df2, values='Male', names='stroke', title='The majority with storke is women')
+	figp.update_traces(textposition='inside', textinfo='percent+label')
+	st.write(figp)
+
+
 with features:
 	st.header('The created features')
-
 	st.markdown(' * ** age:** it was considered as an important feature due to its trending')
 	st.markdown(' * ** avg_glucose_level:**  is getting higher from 150 onwards')
 	st.markdown(' * ** gender:**  it was noticed that women gets more stroke than men')
